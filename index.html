@@ -2,12 +2,12 @@
 <html lang="ru">
 
 <head>
-    <title>dotpage</title>
+    <title>Сайт портфолио dotpage</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Сайт портфолио HTML Верстальщика">
-    <meta name="keywords" content="портфолио, сайт портфолио, html верстка, примеры сайтов, примеры работ, dotpage, .page">
+    <meta name="description" content="Тимур Филиппов сайт портфолио">
+    <meta name="keywords" content="портфолио, сайт портфолио, Сайт портфолио HTML Верстальщика, html верстка, примеры сайтов, примеры работ, dotpage, .page">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -17,9 +17,9 @@
         <div class="wrapper">
             <div class="header-top">
                 <div class="logo header-top__logo">
-                    <h1 class="logo__title">.page
+                    <div class="logo__title">.page
                         <span class="braces">{&#8230;}</span>
-                    </h1>
+                    </div>
                 </div>
 
                 <nav class="nav header-top__nav">
@@ -45,32 +45,34 @@
                 </div>
                 <div class="main-title__text">
                     <p class="main-title__text_bold">Здравствуйте!</p>
-                    <p>Меня зовут Тимур Филиппов и я приветствую вас на моем сайте портфолио!</p>
-                    <p> На сайте вы можете ознакомиться с моим портфолио, а так же найти контакты для связи со мной.</p>
+                    <h1>Меня зовут Тимур Филиппов и я приветствую вас на моем сайте портфолио!</h1>
+                    <p> На сайте вы можете ознакомиться с моим
+                        <a href="#portfolio" class="content-link">портфолио</a>, а так же найти
+                        <a href="#contacts" class="content-link">контакты</a> для связи со мной.</p>
                 </div>
             </div>
     </header>
     <section id="portfolio" class="portfolio">
         <div class="wrapper">
-            <h3 class="title portfolio-title">портфолио</h3>
-            <div class="portfolio__items">
-                <div class="portfolio__item frame-grey">
-                    <a href="./golden/" target="_blank" class="portfolio__link">
-                        <img src="./img/golden.jpg" alt="golden">
-                    </a>
+            <h3 class="title portfolio-title">портфолио</h2>
+                <div class="portfolio__items">
+                    <div class="portfolio__item frame-grey">
+                        <a href="./golden/" target="_blank" class="portfolio__link">
+                            <img src="./img/golden.jpg" alt="golden">
+                        </a>
+                    </div>
+                    <div class="portfolio__item frame-grey">
+                        <a href="./automotive/" target="_blank" class="portfolio__link">
+                            <img src="./img/automotive.jpg" alt="automotive">
+                        </a>
+                    </div>
                 </div>
-                <div class="portfolio__item frame-grey">
-                    <a href="./automotive/" target="_blank" class="portfolio__link">
-                        <img src="./img/automotive.jpg" alt="automotive">
-                    </a>
-                </div>
-            </div>
         </div>
     </section>
     <footer class="footer">
         <div class="wrapper footer__flex">
             <section id="contacts" class="contacts">
-                <p class="title contacts-title">Контакты</p>
+                <h3 class="title contacts-title">Контакты</h3>
                 <p class="email ">Email:
                     <a class="email__link" href="mailto:yaji2k@gmail.com" title="написать на почту">yaji2k@gmail.com</a>
                 </p>

@@ -9,7 +9,7 @@ window.onload = function () {
         auto: true
     });
 
-    $('.nav__link').on('click', function (e) {
+    $('.nav__link, .content-link').on('click', function (e) {
         e.preventDefault();
 
         $('.menu a').removeClass('active').filter(this).addClass('active');
